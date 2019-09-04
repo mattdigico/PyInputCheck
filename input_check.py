@@ -23,7 +23,7 @@ def int_input(ask_string,error_string): #Checks if the input is an integer
 #------------------------------
 #---Yes/No-Input-Validation----
 #------------------------------
-"""Returns True (yes/y) or False (no/n) once user has entered valid input"""
+"""Returns True (input of yes/y) or False (input of no/n) once user has entered valid input"""
 def yes_no_input(ask_string,error_string): #Checks string input and returns bool
   valid=False
   while not valid: #Iterates until valid input
